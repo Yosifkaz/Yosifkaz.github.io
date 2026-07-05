@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yosif Al-khazaali | CS 499 ePortfolio</title>
+
+  <style>
+    :root {
+      --bg: #0f1117;
+      --panel: #171a23;
+      --panel-light: #202431;
+      --text: #f2f2f2;
+      --muted: #b7bdc9;
+      --accent: #4fd18b;
+      --border: #2b3040;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 60px 20px 40px;
+      text-align: center;
+      border-bottom: 1px solid var(--border);
+      background: linear-gradient(180deg, #151925 0%, #0f1117 100%);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.4rem;
+      letter-spacing: 0.5px;
+    }
+
+    header h2 {
+      margin: 12px 0 0;
+      font-size: 1.2rem;
+      font-weight: normal;
+      color: var(--muted);
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 12px;
+      padding: 18px 20px;
+      background: #11141d;
+      border-bottom: 1px solid var(--border);
+    }
+
+    nav a {
+      color: var(--text);
+      text-decoration: none;
+      padding: 8px 14px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      transition: 0.2s;
+      font-size: 0.95rem;
+    }
+
+    nav a:hover {
+      color: var(--accent);
+      border-color: var(--accent);
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 35px 20px 60px;
+    }
+
+    section {
+      margin-bottom: 32px;
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 26px;
+    }
+
+    h3 {
+      margin-top: 0;
+      color: var(--accent);
+      font-size: 1.35rem;
+    }
+
+    p {
+      color: var(--muted);
+      margin-bottom: 0;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 18px;
+      margin-top: 18px;
+    }
+
+    .card {
+      background: var(--panel-light);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 18px;
+    }
+
+    .card h4 {
+      margin: 0 0 8px;
+      color: var(--text);
+    }
+
+    .card p {
+      margin: 0;
+      font-size: 0.95rem;
+    }
+
+    .status {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 5px 10px;
+      border: 1px solid var(--accent);
+      border-radius: 20px;
+      color: var(--accent);
+      font-size: 0.85rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 22px;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Yosif Al-khazaali</h1>
+    <h2>CS 499 Computer Science Capstone ePortfolio</h2>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#artifacts">Artifacts</a>
+    <a href="#enhancements">Enhancements</a>
+    <a href="#status">Status</a>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h3>About This Portfolio</h3>
+      <p>
+        This ePortfolio is being created for my CS 499 Computer Science Capstone.
+        The purpose of this site is to bring together selected work from my Computer Science program,
+        improve it, and explain the decisions behind those improvements. I want this portfolio to show
+        more than just finished assignments. I want it to show how I think through software problems,
+        how I improve my code, and how I connect what I learned in the program to real technical work.
+      </p>
+    </section>
+
+    <section id="artifacts">
+      <h3>Selected Artifact Areas</h3>
+      <p>
+        For this capstone, I will be choosing artifacts that show growth in the main areas required for
+        the course. These areas are software design and engineering, algorithms and data structures,
+        and databases.
+      </p>
+
+      <div class="grid">
+        <div class="card">
+          <h4>Software Design and Engineering</h4>
+          <p>
+            This section will focus on improving the structure, usability, reliability, and overall design
+            of a software project.
+          </p>
+        </div>
+
+        <div class="card">
+          <h4>Algorithms and Data Structures</h4>
+          <p>
+            This section will focus on improving logic, efficiency, organization, and the use of data
+            structures to solve a problem.
+          </p>
+        </div>
+
+        <div class="card">
+          <h4>Databases</h4>
+          <p>
+            This section will focus on how data is stored, searched, managed, protected, and used by
+            an application.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="enhancements">
+      <h3>Planned Enhancements</h3>
+      <p>
+        As I move through the capstone, I will add my original artifacts, enhanced versions, written
+        narratives, and my code review. Each enhancement will explain what the original project did,
+        what I changed, why I made those changes, and what skills the changes demonstrate.
+      </p>
+
+      <div class="grid">
+        <div class="card">
+          <h4>Code Review</h4>
+          <p>Planned for an early milestone in the course.</p>
+          <span class="status">Coming Soon</span>
+        </div>
+
+        <div class="card">
+          <h4>Enhancement One</h4>
+          <p>Software design and engineering enhancement.</p>
+          <span class="status">Coming Soon</span>
+        </div>
+
+        <div class="card">
+          <h4>Enhancement Two</h4>
+          <p>Algorithms and data structures enhancement.</p>
+          <span class="status">Coming Soon</span>
+        </div>
+
+        <div class="card">
+          <h4>Enhancement Three</h4>
+          <p>Database enhancement.</p>
+          <span class="status">Coming Soon</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="status">
+      <h3>Current Status</h3>
+      <p>
+        This site is still in progress and will be updated as I complete each part of CS 499.
+        Right now, the main goal is to set up the ePortfolio and create a clear starting point
+        for the artifacts and enhancements that will be added later.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>CS 499 ePortfolio | Yosif Al-khazaali</p>
+  </footer>
+</body>
+</html>
